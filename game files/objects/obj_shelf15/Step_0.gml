@@ -7,7 +7,7 @@ if(!global.shelf_interacted && global.player_state == "FREE"){
 		image_index = SELECTED;
 	
 		if(accept_key){
-			screenshake(120, 10, 1);
+			//screenshake(120, 10, 1);
 			//mouse_clear(mb_left);
 			audio_play_sound(sound_click,10,false);
 			create_new_textbox(text_id);

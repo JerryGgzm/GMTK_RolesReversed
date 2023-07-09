@@ -1,6 +1,6 @@
 global.player_state = "FREE";
 
-//number of months left in the current 周目
+//number of months left in the current
 global.num_of_month_left = 3;
 global.largest_num_per_page = 550;
 global.num_of_items_per_day = 3;
@@ -11,6 +11,7 @@ global.desk_interacted = false;
 global.note_interacted = false;
 global.computer_interacted = false;
 global.window_interacted = false;
+global.curtain_interacted = false;
 global.bed_interacted = false;
 
 

@@ -36,7 +36,23 @@ function scr_game_text(_text_id){
 				case "computer_cancel":
 				scr_text("Okay then.","","");
 				break;
+				
+			case "note":
+				scr_text("Some notes.","","");
+				scr_option("break","note_break");
+				scr_option("cancel","note_cancel")
+			break;
 			
+				case "note_break":
+				scr_text("You broke it.","","");
+				global.note_interacted = true;
+				global.num_of_items_per_day -= 1;
+				break;
+				
+				case "note_cancel":
+				scr_text("Okay then.","","");
+				break;
+				
 			case "shelf":
 				scr_text("A shelf.","","");
 				scr_option("break","shelf_break");
@@ -67,6 +83,38 @@ function scr_game_text(_text_id){
 				break;
 				
 				case "window_cancel":
+					scr_text("Okay then.","","");
+				break;
+				
+			case "curtain":
+				scr_text("A curtain.","","");
+				scr_option("break","curtain_break");
+				scr_option("cancel","curtain_cancel")
+			break;
+			
+				case "curtain_break":
+					scr_text("You broke it.","","");
+					global.curtain_interacted = true;
+					global.num_of_items_per_day -= 1;
+				break;
+				
+				case "curtain_cancel":
+					scr_text("Okay then.","","");
+				break;
+				
+			case "bed":
+				scr_text("A curtain.","","");
+				scr_option("break","bed_break");
+				scr_option("cancel","bed_cancel")
+			break;
+			
+				case "bed_break":
+					scr_text("You broke it.","","");
+					global.bed_interacted = true;
+					global.num_of_items_per_day -= 1;
+				break;
+				
+				case "bed_cancel":
 					scr_text("Okay then.","","");
 				break;
 			
