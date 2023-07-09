@@ -1,18 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_desk",
+  "name": "obj_computer",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"text_id","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"desk",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"item_interacted","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"global.desk_interacted",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"text_id","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"computer",},
   ],
   "parent": {
     "name": "interactable objects",
     "path": "folders/Objects/interactable objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_interactiveParent",
+    "path": "objects/obj_interactiveParent/obj_interactiveParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_desk",
-    "path": "sprites/spr_desk/spr_desk.yy",
+    "name": "spr_computer",
+    "path": "sprites/spr_computer/spr_computer.yy",
   },
   "spriteMaskId": null,
   "visible": true,

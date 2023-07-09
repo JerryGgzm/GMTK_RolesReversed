@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_desk",
+  "name": "obj_notes",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
@@ -12,7 +12,10 @@
     "name": "interactable objects",
     "path": "folders/Objects/interactable objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_interactiveParent",
+    "path": "objects/obj_interactiveParent/obj_interactiveParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_desk",
-    "path": "sprites/spr_desk/spr_desk.yy",
+    "name": "spr_notes",
+    "path": "sprites/spr_notes/spr_notes.yy",
   },
   "spriteMaskId": null,
   "visible": true,
