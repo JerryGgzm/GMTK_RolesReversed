@@ -5,7 +5,7 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"item_interacted","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"global.desk_interacted",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"item_interacted","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"global.computer_interacted",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"text_id","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"computer",},
   ],
   "parent": {

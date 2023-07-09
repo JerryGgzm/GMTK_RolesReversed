@@ -80,7 +80,6 @@ function scr_game_text(_text_id){
 			
 			case "month1_end":
 				scr_text("Computer log...");
-				
 				scr_text("You used up all your energy, uncontrollable exhaustion creeps up your mind.");
 			break;
 			
@@ -92,25 +91,32 @@ function scr_game_text(_text_id){
 			
 			case "month2_end":
 				scr_text("Computer log...");
-				scr_text("");
+				scr_text("'STOP TALKING TO ME' he exclaims, staring deep into your walls. 'Leave me alone.. Please…' (Phase two sprite with eyes) 'Maria… Baby…' He weeps, 'I really tried.'");
+				scr_text("You wonder who he is talking to. It doesn't seem to be you, his utter despair infects your very existence as your ridge shivers. Alas, the sense of compassion from such familiar isolation made you wonder whether to tone down your mischief. ");
+				scr_text("'I know the other child was innocent, but he was on the brink of demise… Would he not have been happy, knowing his sacrifice contributed to saving… an attempt to save someone's life?'");
+				scr_text("You feel a familiar mixture of pain, anger, and fear…");
+				scr_text("You used up all your energy, uncontrollable exhaustion creeps up your mind.");
 			break;
 			
 			case "month3":
-				scr_text("");
-				scr_text("");
+				scr_text("You see him now, a man in a medical blouse. You feel an uncontrollable fear, an urge pushing you to flee as far as possible. With a click, you feel safe again.");
 			break;
 			
 			case "month3_end":
-				scr_text("");
-				scr_text("");
+				scr_text("'This house seems to have some sort of consciousness, while I am Agnostic, it is to be seriously considered whether there are unacknowledged forces at play.' the doctor huffs into his microphone, '... But it is good to know I am not alone.'");
+				scr_text("You used up all your energy, uncontrollable exhaustion creeps up your mind.");
+			break;
+			
+			case "Play1_end":
+				scr_text("You hear a gasp. You see the doctor collapsed on the ground.");
+				scr_text("'Maria… I have flown too close to the sun, I just want to be closer to our boy.'");
+				scr_text("You have much to ask, so many questions, but you had no way of asking. You feel avenged, but also sad, and lonely.");
+				scr_text("'Sorry pal, I couldn't be a father to you.' His quenched fingers quiver on your floor, as he is drenched in his own blood, staring out the window, murmuring 'I suppose your family felt the same, hence this knife in my flesh… Would it have been different if I were to simply turn myself in? Or to have simply never prioritized one life above another?' ");
+				scr_text("You struggle to stay conscious while being torn apart by a wrenching pain as if something has tapped into your existence, wiping you away. ");
+				scr_text("Some sort of bizarre reset.");
+				scr_text("Death doesn't pull you apart; you are no longer alone.");
 			break;
 
-			case "intro":
-				scr_text("A doctor in hiding, who experimented on people in hopes of saving his wife - from the deceased to the dying, with his last straw of morality.");
-				scr_text("Unsuccessful, those who died in his hands guilt his consciousness while he grieves her death. He moved back to the place where he experimented on his last patient, a location close to the facility where his son currently resides.");
-				scr_text("While in isolation, he grew unstable. He was eventually murdered, presumably by the family of the patient.");
-					 
-			break;
 			
 			case "char_narr":
 

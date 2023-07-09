@@ -8,7 +8,7 @@ if(mouse_x>x && mouse_x<x+sprite_get_width(sprite_index)
 		mouse_clear(mb_left);
 		var inst = instance_create_depth(0,0,-9999,obj_warp_narra_black);
 		inst.target_room = Room_monthly_trans;
-		inst.text_id = "intro";
+		inst.text_id = "month1";
 	}
 }else{
 	image_index = 0;
