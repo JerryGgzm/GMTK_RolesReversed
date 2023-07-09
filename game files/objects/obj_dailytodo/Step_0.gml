@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 //if the actions points are used up, fading into the black scene
 if (global.num_of_items_per_day == 0) {
 	global.num_of_month_left -= 1;
