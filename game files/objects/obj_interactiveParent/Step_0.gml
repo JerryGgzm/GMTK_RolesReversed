@@ -11,7 +11,7 @@ if(!item_interacted && global.player_state == "FREE"){
 			var _x_pos = camera_get_view_x(view_camera[0]);
 			var _y_pos = camera_get_view_y(view_camera[0]);
 			screenshake(540, 30, 2, _x_pos, _y_pos);
-			//mouse_clear(mb_left);
+			mouse_clear(mb_left);
 			show_debug_message("entered");
 			audio_play_sound(snd_sound_click,10,false);
 			create_new_textbox(text_id);

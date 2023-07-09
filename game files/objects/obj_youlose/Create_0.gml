@@ -1,1 +1,2 @@
-create_end_textbox("summary");
+triggered = false;
+text_id = "";

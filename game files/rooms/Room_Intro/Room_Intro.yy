@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room_monthly_trans",
+  "name": "Room_Intro",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,

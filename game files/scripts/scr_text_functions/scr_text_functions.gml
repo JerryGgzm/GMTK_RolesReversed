@@ -23,8 +23,8 @@ function scr_text(_text){
 		
 		switch(argument[1]){
 			
-			case "npc":
-				speaker[page_number] = "npc";
+			case "mainchar":
+				speaker[page_number] = "mainchar";
 			break;
 			case "reply":
 				speaker[page_number] = "reply";
