@@ -2,6 +2,7 @@ global.player_state = "FREE";
 
 //number of months left in the current
 global.num_of_month_left = 3;
+global.current_turn = 1;
 global.largest_num_per_page = 550;
 global.num_of_items_per_day = 3;
 
