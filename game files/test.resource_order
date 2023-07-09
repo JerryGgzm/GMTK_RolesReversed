@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings": [
+    {"name":"changed?","order":8,"path":"folders/Objects/changed?.yy",},
     {"name":"functional blocks","order":1,"path":"folders/Objects/functional blocks.yy",},
     {"name":"interactable objects","order":2,"path":"folders/Objects/interactable objects.yy",},
-    {"name":"changed?","order":8,"path":"folders/Objects/changed?.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"scr_effect","order":4,"path":"scripts/scr_effect/scr_effect.yy",},
