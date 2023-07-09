@@ -4,7 +4,7 @@ global.player_state = "FREE";
 global.num_of_month_left = 3;
 global.current_turn = 1;
 global.largest_num_per_page = 550;
-global.num_of_items_per_day = 3;
+global.num_of_items_per_day = 2;
 
 global.mirror_interacted = false;
 global.shelf_interacted = false;
