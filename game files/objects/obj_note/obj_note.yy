@@ -12,10 +12,7 @@
     "name": "interactable objects",
     "path": "folders/Objects/interactable objects.yy",
   },
-  "parentObjectId": {
-    "name": "obj_interactiveParent",
-    "path": "objects/obj_interactiveParent/obj_interactiveParent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

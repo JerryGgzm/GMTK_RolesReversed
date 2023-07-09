@@ -21,6 +21,21 @@ function scr_game_text(_text_id){
 				scr_text("Okay then.","","");
 				break;
 				
+			case "computer":
+				scr_text("A computer.","","");
+				scr_option("break","computer_break");
+				scr_option("cancel","computer_cancel")
+			break;
+			
+				case "computer_break":
+				scr_text("You broke it.","","");
+				global.computer_interacted = true;
+				global.num_of_items_per_day -= 1;
+				break;
+				
+				case "computer_cancel":
+				scr_text("Okay then.","","");
+				break;
 			
 			case "shelf":
 				scr_text("A shelf.","","");
@@ -39,30 +54,68 @@ function scr_game_text(_text_id){
 				break;
 				
 				
-			case "desk":
-				scr_text("A desk.","","");
-				scr_option("break","desk_break");
-				scr_option("cancel","desk_cancel")
+			case "window":
+				scr_text("A window.","","");
+				scr_option("break","window_break");
+				scr_option("cancel","window_cancel")
 			break;
 			
-				case "desk_break":
+				case "window_break":
 					scr_text("You broke it.","","");
-					global.desk_interacted = true;
+					global.window_interacted = true;
 					global.num_of_items_per_day -= 1;
 				break;
 				
-				case "desk_cancel":
+				case "window_cancel":
 					scr_text("Okay then.","","");
 				break;
 			
 		#endregion
 		
 		#region MONTHLY SUMMARY
-		
-			case "summary":
+			case "month1":
+				scr_text("A shadow moves into the house, waking you from your slumber. No one has had the audacity to reside in this haunted place for years, and you intend to stay this way. You are annoyed; you want him gone, you didn't get voted top haunted of the year for nothing.");
+				scr_text("You are annoyed; you want him gone, you didn’t get voted top haunted of the year for nothing.");
+			break;
+			
+			case "month1_end":
+				scr_text("Computer log...");
+				
+				scr_text("You used up all your energy, uncontrollable exhaustion creeps up your mind.");
+			break;
+			
+			case "month2":
+				scr_text("You have risen again, the original pungent smell of medical equipment has diluted.");
+				scr_text("It's been a month of harassing the heck out of him, but he seems unphased by your effort. “Am I getting old?” You think to yourself profusely. While denial crawls up the roof, you decide to be more aggressive, in hopes of finally booting him out of your turf.");
+				scr_text("Have you changed? You wonder if your heart was softened because of his companionship.");
+			break;
+			
+			case "month2_end":
+				scr_text("Computer log...");
+				scr_text("");
+			break;
+			
+			case "month3":
+				scr_text("");
+				scr_text("");
+			break;
+			
+			case "month3_end":
+				scr_text("");
+				scr_text("");
+			break;
 
-				scr_text("Summary .... Summary .... Summary .... Summary .... Summary .... Summary .... Summary .... Summary .... Summary .... ");
+			case "intro":
+				scr_text("A doctor in hiding, who experimented on people in hopes of saving his wife - from the deceased to the dying, with his last straw of morality.");
+				scr_text("Unsuccessful, those who died in his hands guilt his consciousness while he grieves her death. He moved back to the place where he experimented on his last patient, a location close to the facility where his son currently resides.");
+				scr_text("While in isolation, he grew unstable. He was eventually murdered, presumably by the family of the patient.");
 					 
+			break;
+			
+			case "char_narr":
+
+				scr_text("I'm going to finish up my essay.","mainchar");
+						 
 			break;
 			
 		#endregion

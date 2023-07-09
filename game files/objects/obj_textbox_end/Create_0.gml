@@ -36,8 +36,8 @@ speaker_sprite[0] = noone;
 
 prior_setup = false;
 //------------------text effects
-default_text_color = c_purple;
-default_option_color = c_black;
+default_text_color = c_white;
+default_option_color = c_white;
 scr_set_defaults_for_text();
 last_free_space_pos = 0;
 text_pause_timer = 0;

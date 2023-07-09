@@ -23,8 +23,8 @@ function scr_text(_text){
 		
 		switch(argument[1]){
 			
-			case "npc":
-				speaker[page_number] = "npc";
+			case "mainchar":
+				speaker[page_number] = "mainchar";
 			break;
 			case "reply":
 				speaker[page_number] = "reply";
@@ -68,7 +68,7 @@ function scr_text_4color(_startpos,_endpos,_c1,_c2,_c3,_c4){
 	}
 }
 
-///@function scr_text_color(_startpos,_endpos,_c1);
+///@function scr_text_color_specific(_startpos,_endpos,_c1);
 ///@param {real} _startpos colored text start at
 ///@param {real} _endpos colored text end at
 ///@param {real} _c1
@@ -83,6 +83,7 @@ function scr_text_color(_startpos,_endpos,_c1){
 		}
 	}
 }
+
 #endregion
 
 ///@function scr_option(_option,_option_id);
