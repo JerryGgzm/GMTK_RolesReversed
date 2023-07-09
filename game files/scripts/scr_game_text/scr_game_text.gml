@@ -57,5 +57,15 @@ function scr_game_text(_text_id){
 			
 		#endregion
 		
+		#region MONTHLY SUMMARY
+		
+			case "summary":
+
+				scr_text("Summary .... Summary .... Summary .... Summary .... Summary .... Summary .... Summary .... Summary .... Summary .... ");
+					 
+			break;
+			
+		#endregion
+		
 	}
 }

@@ -122,3 +122,40 @@ function set_global_box_xy(){
 	global.box_x = mouse_x;
 	global.box_y = mouse_y;
 }
+
+
+
+function goAnotherRoom(){
+	if(room == Room2){
+			audio_play_sound(sound_click,10,false);
+			var inst = instance_create_depth(0,0,-9999,obj_warp_black);
+			inst.target_room = Room3;
+			inst.target_x = 200;
+	}else{
+		audio_play_sound(sound_click,10,false);
+		var inst = instance_create_depth(0,0,-9999,obj_warp_black);
+			inst.target_room = Room2;
+			inst.target_x = 200;
+	}
+}
+
+function goAnotherDay(){
+
+	var inst = instance_create_depth(0,0,-9999,obj_warp_black);
+	inst.target_room = Room2;
+	inst.target_x = 200;
+	
+}
+
+///@function create_end_textbox(_text_id);
+///@param {string} _text_id
+///@param {string} [is_immediate]
+function create_end_textbox(_text_id){
+	with (instance_create_depth(0,0,-999,obj_textbox_end)){
+		if(argument_count > 1){
+			immediate = argument[1];
+		}
+		scr_game_text(_text_id);
+	}
+}
+
