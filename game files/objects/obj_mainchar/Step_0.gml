@@ -40,3 +40,18 @@ switch(global.player_state){
 	#endregion
 	break;
 }
+
+
+//Camera movement code:
+//The x position we want to move the camera to (targetx) is player x - half of the camera width since the camera origin is at the top left corner
+targetx = x - (camera_get_view_width(view_camera[0]) / 2);
+//The y position we want to move the camera to (targetx) is player y - half of the camera height since the camera origin is at the top left corner
+targety = y - (camera_get_view_height(view_camera[0]) / 2);
+//We need the current position of the camera
+currentx = camera_get_view_x(view_camera[0]);
+currenty = camera_get_view_y(view_camera[0]);
+//Set the camera position slowly towards the target position
+camera_set_view_pos(view_camera[0], targetx * CAM_TARGET_PERCENTAGE + currentx * CAM_CURRENT_PERCENTAGE, targety * CAM_TARGET_PERCENTAGE + currenty * CAM_CURRENT_PERCENTAGE);
+
+//Make the player "walk through" objects, creating a 3D effect
+depth = -y;
