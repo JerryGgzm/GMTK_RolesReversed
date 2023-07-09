@@ -72,10 +72,10 @@ function scr_game_text(_text_id){
 			
 		#endregion
 		
-		#region MONTHLY SUMMARY
+		#region MONTHLY SUMMARY - 1
 			case "month1":
 				scr_text("A shadow moves into the house, waking you from your slumber. No one has had the audacity to reside in this haunted place for years, and you intend to stay this way. You are annoyed; you want him gone, you didn't get voted top haunted of the year for nothing.");
-				scr_text("You are annoyed; you want him gone, you didn’t get voted top haunted of the year for nothing.");
+				scr_text("You are annoyed; you want him gone, you didn't get voted top haunted of the year for nothing.");
 			break;
 			
 			case "month1_end":
@@ -116,14 +116,59 @@ function scr_game_text(_text_id){
 				scr_text("Some sort of bizarre reset.");
 				scr_text("Death doesn't pull you apart; you are no longer alone.");
 			break;
-
+				
 			
 			case "char_narr":
-
 				scr_text("I'm going to finish up my essay.","mainchar");
-						 
+				 
 			break;
 			
+		#endregion
+		
+		
+		#region MONTHLY SUMMARY - 2
+			case "month1_2":
+				scr_text("A shadow moves into the house, waking you from your slumber. No one has had the audacity to reside in this haunted place for years. ");
+				scr_text("You feel familiar; he is familiar, why is he familiar? He needs to go, for the sake of his own, or is it for the sake of me? Are we stopping him from something? Some sort of force pushing us apart, is it death?");		
+				scr_text("I'm going to finish up my essay.","mainchar");
+			break;
+			
+			case "month1_end_2":
+				scr_text("Computer log...");
+				scr_text("You used up all your energy, uncontrollable exhaustion creeps up your mind.");
+			break;
+			
+			case "month2_2":
+				scr_text("You have risen again, the original pungent smell of medical equipment has diluted.");
+				scr_text("It's been a month of harassing the heck out of him, but he seems unphased by your effort. “Am I getting old?” You think to yourself profusely. While denial crawls up the roof, you decide to be more aggressive, in hopes of finally booting him out of your turf.");
+				scr_text("Have we changed? You wonder if your heart was softened because of his companionship.");
+				scr_text_color(5,7,c_red);
+			break;
+			
+			case "month2_end_2":
+				scr_text("'What a coward,' he disdains, 'what an arrogant god-complexed fool, he is no father of mine.'");
+				scr_text("You used up all your energy, uncontrollable exhaustion creeps up your mind.");	
+				
+			break;
+			
+			case "month3_2":
+				scr_text("You see him now, a man in a detective suit. You feel an uncontrollable closeness, a tearful urge pushing you to talk to him. With a click, you feel numb again.");
+			break;
+			
+			case "month3_end_2":
+				scr_text("This house seems to have some sort of consciousness, while I am Agnostic, it is to be seriously considered whether there are unacknowledged forces at play.' the doctor huffs into his microphone, '... But it is good to know I am not alone.");
+				scr_text("...");
+				scr_text("'This will be my one and only entry. Let me first address the elephant in the room. My father is and always will be in the wrong. There is no moral high ground that allows such a utilitarian zero-sum exchange of human life, as proclaimed by Immanuel Kant, humans shall never be treated as means. As such a man in isolation has lost control, the dichotomy with such a sinned environment is altered, a direct contrast of the child he murdered in the name of my mother…'");
+				scr_text("Your exhaustion seemingly went away, as if there was nothing more holding down your existence. You feel free. ");
+				scr_text("The speech kept going, as you uncovered the doctor's past, and knew that it is also your past, a testament to the vice and a revelation of the dichotomies - between a house and its resident, the patient to a doctor, children to fathers, strangers to blood, and morality to choice.");
+				scr_text("Eventually, the detective stood up, ");
+				scr_text("'He was a troubled man.' the detective sighed, 'House, would you tell me what kind of man he was?'");
+			break;
+			
+			case "Play2_end":
+				scr_text("Thank you for playing...");
+			break;
+				
 		#endregion
 		
 	}
