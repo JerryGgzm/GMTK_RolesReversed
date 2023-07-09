@@ -67,9 +67,12 @@ camera_set_view_pos(view_camera[0], targetx * CAM_TARGET_PERCENTAGE + currentx *
 //Make the player "walk through" objects, creating a 3D effect
 depth = -y;
 
-if(global.num_of_month_left == 1){
+if(global.num_of_month_left == 1 && global.zhoumu == 1){
 	char_sprite[RIGHT] = spr_mainchar_right24;
 	char_sprite[LEFT] = spr_mainchar_left23;
+}else if(global.num_of_month_left == 1 && global.zhoumu == 2){
+	char_sprite[RIGHT] = spr_mainchar_right4;
+	char_sprite[LEFT] = spr_mainchar_left3;
 }else{
 	char_sprite[RIGHT] = spr_mainchar_right;
 	char_sprite[LEFT] = spr_mainchar_left;

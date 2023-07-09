@@ -101,6 +101,8 @@
     {"id":{"name":"spr_warp_animation","path":"sprites/spr_warp_animation/spr_warp_animation.yy",},},
     {"id":{"name":"spr_note","path":"sprites/spr_note/spr_note.yy",},},
     {"id":{"name":"spr_warp_animation_black","path":"sprites/spr_warp_animation_black/spr_warp_animation_black.yy",},},
+    {"id":{"name":"spr_mainchar_left3","path":"sprites/spr_mainchar_left3/spr_mainchar_left3.yy",},},
+    {"id":{"name":"spr_mainchar_right4","path":"sprites/spr_mainchar_right4/spr_mainchar_right4.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"obj_screenshake_1","path":"objects/obj_screenshake_1/obj_screenshake_1.yy",},},

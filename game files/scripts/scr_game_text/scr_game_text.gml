@@ -122,7 +122,7 @@ function scr_game_text(_text_id){
 		
 		#region MONTHLY SUMMARY - 1
 			case "month1":
-				scr_text("A shadow moves into the house, waking you from your slumber. No one has had the audacity to reside in this haunted place for years, and you intend to stay this way. You are annoyed; you want him gone, you didn't get voted top haunted of the year for nothing.");
+				scr_text("A shadow moves into the house, waking you from your slumber. No one has had the audacity to reside in this haunted place for years, and you intend to stay this way.");
 				scr_text("You are annoyed; you want him gone, you didn't get voted top haunted of the year for nothing.");
 			break;
 			
@@ -145,9 +145,7 @@ function scr_game_text(_text_id){
 			case "month3_end":
 				scr_text("'This house seems to have some sort of consciousness, while I am Agnostic, it is to be seriously considered whether there are unacknowledged forces at play.' the doctor huffs into his microphone, '... But it is good to know I am not alone.'");
 				scr_text("You used up all your energy, uncontrollable exhaustion creeps up your mind.");
-			break;
-			
-			case "Play1_end":
+
 				scr_text("You hear a gasp. You see the doctor collapsed on the ground.");
 				scr_text("'Maria... I have flown too close to the sun, I just want to be closer to our boy.'");
 				scr_text("You have much to ask, so many questions, but you had no way of asking. You feel avenged, but also sad, and lonely.");

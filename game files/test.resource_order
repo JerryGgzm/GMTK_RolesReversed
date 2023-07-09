@@ -60,6 +60,8 @@
     {"name":"spr_warp_animation","order":3,"path":"sprites/spr_warp_animation/spr_warp_animation.yy",},
     {"name":"spr_note","order":18,"path":"sprites/spr_note/spr_note.yy",},
     {"name":"spr_warp_animation_black","order":6,"path":"sprites/spr_warp_animation_black/spr_warp_animation_black.yy",},
+    {"name":"spr_mainchar_left3","order":5,"path":"sprites/spr_mainchar_left3/spr_mainchar_left3.yy",},
+    {"name":"spr_mainchar_right4","order":6,"path":"sprites/spr_mainchar_right4/spr_mainchar_right4.yy",},
     {"name":"scr_macros","order":1,"path":"scripts/scr_macros/scr_macros.yy",},
     {"name":"spr_wall","order":9,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"obj_screenshake_1","order":16,"path":"objects/obj_screenshake_1/obj_screenshake_1.yy",},

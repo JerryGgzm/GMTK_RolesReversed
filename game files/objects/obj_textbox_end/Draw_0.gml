@@ -141,6 +141,9 @@ if(next_key){
 		}else{
 		//if all pages finished and cliked, go next day
 			goAnotherDay();
+			if(global.zhoumu == 3){
+				game_restart();
+			}
 		}
 	}else{
 	//if typing not done

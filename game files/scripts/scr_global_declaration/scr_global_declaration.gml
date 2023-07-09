@@ -15,6 +15,8 @@ global.window_interacted = false;
 global.curtain_interacted = false;
 global.bed_interacted = false;
 
+global.zhoumu = 1;
+global.notreset = false;
 
 global.box_x = -1;
 global.box_y = -1;
