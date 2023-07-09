@@ -1,5 +1,7 @@
 global.player_state = "FREE";
 
+//number of months left in the current 周目
+global.num_of_month_left = 3;
 global.largest_num_per_page = 250;
 global.num_of_items_per_day = 3;
 
