@@ -1,6 +1,16 @@
 switch(global.player_state){
 	case "FREE":
-	#region 
+	#region
+	
+		// ramdomly pick a moving time
+		move_time -= 1;
+		if (move_time <= 0) {
+			move_time = choose(200, 240, 300, 360);
+			move_left = abs(move_left - 1)
+			move_right = abs(move_right - 1)
+		}
+		
+		
 		//get movement
 		xmove = move_speed*(move_right - move_left);
 
@@ -29,6 +39,7 @@ switch(global.player_state){
 		
 		//move the character
 		x += xmove;
+		
 		
 	#endregion
 	break;

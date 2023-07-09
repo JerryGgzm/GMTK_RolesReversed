@@ -14,3 +14,7 @@ move_right = false;
 //Constants for camera movement
 CAM_TARGET_PERCENTAGE = 0.2;
 CAM_CURRENT_PERCENTAGE = 0.8;
+
+
+// rondomly decide how long the character moves toward a direction
+move_time = 500;
