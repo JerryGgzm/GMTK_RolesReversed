@@ -38,6 +38,7 @@ function scr_game_text(_text_id){
 					scr_text("Okay then.","","");
 				break;
 				
+				
 			case "desk":
 				scr_text("A desk.","","");
 				scr_option("break","desk_break");

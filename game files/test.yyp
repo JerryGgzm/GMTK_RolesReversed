@@ -35,6 +35,7 @@
     "IDEVersion": "2023.6.0.89",
   },
   "resources": [
+    {"id":{"name":"scr_effect","path":"scripts/scr_effect/scr_effect.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_mirror","path":"sprites/spr_mirror/spr_mirror.yy",},},
     {"id":{"name":"obj_startbutton","path":"objects/obj_startbutton/obj_startbutton.yy",},},
@@ -45,6 +46,7 @@
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
     {"id":{"name":"obj_dailytodo","path":"objects/obj_dailytodo/obj_dailytodo.yy",},},
+    {"id":{"name":"obj_LAMP","path":"objects/obj_LAMP/obj_LAMP.yy",},},
     {"id":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},},
     {"id":{"name":"obj_mirror","path":"objects/obj_mirror/obj_mirror.yy",},},
     {"id":{"name":"scr_game_text","path":"scripts/scr_game_text/scr_game_text.yy",},},
@@ -57,6 +59,7 @@
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"obj_mainchar","path":"objects/obj_mainchar/obj_mainchar.yy",},},
     {"id":{"name":"scr_text_functions","path":"scripts/scr_text_functions/scr_text_functions.yy",},},
+    {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},},
     {"id":{"name":"obj_shelf","path":"objects/obj_shelf/obj_shelf.yy",},},
     {"id":{"name":"spr_bullentin_board","path":"sprites/spr_bullentin_board/spr_bullentin_board.yy",},},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},},
