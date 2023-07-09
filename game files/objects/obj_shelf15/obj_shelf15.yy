@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_shelf",
-    "path": "sprites/spr_shelf/spr_shelf.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

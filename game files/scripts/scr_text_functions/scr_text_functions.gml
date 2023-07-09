@@ -127,7 +127,7 @@ function set_global_box_xy(){
 
 
 function goAnotherRoom(){
-	if(room == Room2){
+	if(room == Room2_old){
 			audio_play_sound(sound_click,10,false);
 			var inst = instance_create_depth(0,0,-9999,obj_warp_black);
 			inst.target_room = Room3;
@@ -135,7 +135,7 @@ function goAnotherRoom(){
 	}else{
 		audio_play_sound(sound_click,10,false);
 		var inst = instance_create_depth(0,0,-9999,obj_warp_black);
-			inst.target_room = Room2;
+			inst.target_room = Room2_old;
 			inst.target_x = 200;
 	}
 }
@@ -143,7 +143,7 @@ function goAnotherRoom(){
 function goAnotherDay(){
 
 	var inst = instance_create_depth(0,0,-9999,obj_warp_black);
-	inst.target_room = Room2;
+	inst.target_room = Room2_old;
 	inst.target_x = 200;
 	
 }

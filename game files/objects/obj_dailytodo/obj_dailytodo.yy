@@ -29,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_bulletin_board",
-    "path": "sprites/spr_bulletin_board/spr_bulletin_board.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

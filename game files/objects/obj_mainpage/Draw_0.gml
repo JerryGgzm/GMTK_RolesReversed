@@ -1,7 +1,4 @@
 
-//if(!audio_is_playing(bgm)){
-//	audio_play_sound(bgm,10,true);
-//}
 
 draw_set_halign(fa_left);
 draw_set_font(Font_pixel_1);

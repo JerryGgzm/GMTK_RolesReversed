@@ -5,16 +5,16 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"text_id","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"mirror",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"item_interacted","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"global.mirror_interacted",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent_1","path":"objects/obj_interactiveParent_1/obj_interactiveParent_1.yy",},"propertyId":{"name":"text_id","path":"objects/obj_interactiveParent_1/obj_interactiveParent_1.yy",},"value":"mirror",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent_1","path":"objects/obj_interactiveParent_1/obj_interactiveParent_1.yy",},"propertyId":{"name":"item_interacted","path":"objects/obj_interactiveParent_1/obj_interactiveParent_1.yy",},"value":"global.mirror_interacted",},
   ],
   "parent": {
     "name": "interactable objects",
     "path": "folders/Objects/interactable objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_interactiveParent",
-    "path": "objects/obj_interactiveParent/obj_interactiveParent.yy",
+    "name": "obj_interactiveParent_1",
+    "path": "objects/obj_interactiveParent_1/obj_interactiveParent_1.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
