@@ -8,7 +8,7 @@
 
 function screenshake(_time, _magnitude, _fade, _current_cam_x, _current_cam_y)
 {
-	with (obj_screenshake) {
+	with (obj_screenshake_1) {
 		shake = true;
 		shake_time = _time;
 		shake_magnitude = _magnitude;

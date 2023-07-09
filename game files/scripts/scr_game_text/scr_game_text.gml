@@ -81,9 +81,6 @@ function scr_game_text(_text_id){
 			case "month1_end":
 				scr_text("Computer log...");
 				scr_text("You used up all your energy, uncontrollable exhaustion creeps up your mind.");
-			break;
-			
-			case "month2":
 				scr_text("You have risen again, the original pungent smell of medical equipment has diluted.");
 				scr_text("It's been a month of harassing the heck out of him, but he seems unphased by your effort. “Am I getting old?” You think to yourself profusely. While denial crawls up the roof, you decide to be more aggressive, in hopes of finally booting him out of your turf.");
 				scr_text("Have you changed? You wonder if your heart was softened because of his companionship.");
@@ -96,9 +93,6 @@ function scr_game_text(_text_id){
 				scr_text("'I know the other child was innocent, but he was on the brink of demise… Would he not have been happy, knowing his sacrifice contributed to saving… an attempt to save someone's life?'");
 				scr_text("You feel a familiar mixture of pain, anger, and fear…");
 				scr_text("You used up all your energy, uncontrollable exhaustion creeps up your mind.");
-			break;
-			
-			case "month3":
 				scr_text("You see him now, a man in a medical blouse. You feel an uncontrollable fear, an urge pushing you to flee as far as possible. With a click, you feel safe again.");
 			break;
 			
