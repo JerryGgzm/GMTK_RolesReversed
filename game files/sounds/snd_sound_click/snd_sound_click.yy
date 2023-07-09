@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sound_click",
+  "name": "snd_sound_click",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sound_click.mp3",
+  "soundFile": "snd_sound_click.mp3",
   "type": 0,
   "volume": 0.34,
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_LAMP",
+  "name": "obj_desk14",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "interactable objects",
-    "path": "folders/Objects/interactable objects.yy",
+    "name": "changed?",
+    "path": "folders/Objects/changed?.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shelf",
-    "path": "sprites/spr_shelf/spr_shelf.yy",
+    "name": "spr_desk",
+    "path": "sprites/spr_desk/spr_desk.yy",
   },
   "spriteMaskId": null,
   "visible": true,

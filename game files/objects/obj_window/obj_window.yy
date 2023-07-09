@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_desk",
+  "name": "obj_window",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"text_id","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"desk",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"item_interacted","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"global.desk_interacted",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"text_id","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"window",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_interactiveParent","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"propertyId":{"name":"item_interacted","path":"objects/obj_interactiveParent/obj_interactiveParent.yy",},"value":"global.window_interacted",},
   ],
   "parent": {
     "name": "interactable objects",
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_desk",
-    "path": "sprites/spr_desk/spr_desk.yy",
+    "name": "spr_window",
+    "path": "sprites/spr_window/spr_window.yy",
   },
   "spriteMaskId": null,
   "visible": true,
